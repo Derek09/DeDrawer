@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C953DAA3186023550052F036 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C953DAA2186023550052F036 /* UIKit.framework */; };
+		C953DAA5186023550052F036 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C953DAA4186023550052F036 /* Foundation.framework */; };
+		C953DAA7186023550052F036 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C953DAA6186023550052F036 /* CoreGraphics.framework */; };
+		C953DAAD186023550052F036 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C953DAAB186023550052F036 /* InfoPlist.strings */; };
+		C953DAAF186023550052F036 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C953DAAE186023550052F036 /* main.m */; };
+		C953DAB3186023550052F036 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C953DAB2186023550052F036 /* AppDelegate.m */; };
+		C953DAB5186023550052F036 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C953DAB4186023550052F036 /* Default.png */; };
+		C953DAB7186023550052F036 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C953DAB6186023550052F036 /* Default@2x.png */; };
+		C953DAB9186023550052F036 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C953DAB8186023550052F036 /* Default-568h@2x.png */; };
+		C953DABC186023550052F036 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C953DABB186023550052F036 /* ViewController.m */; };
+		C953DABF186023550052F036 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C953DABD186023550052F036 /* ViewController_iPhone.xib */; };
+		C953DAC2186023550052F036 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C953DAC0186023550052F036 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C953DA9F186023550052F036 /* DeDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C953DAA2186023550052F036 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C953DAA4186023550052F036 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C953DAA6186023550052F036 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C953DAAA186023550052F036 /* DeDrawer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeDrawer-Info.plist"; sourceTree = "<group>"; };
+		C953DAAC186023550052F036 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C953DAAE186023550052F036 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C953DAB0186023550052F036 /* DeDrawer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeDrawer-Prefix.pch"; sourceTree = "<group>"; };
+		C953DAB1186023550052F036 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C953DAB2186023550052F036 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C953DAB4186023550052F036 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C953DAB6186023550052F036 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C953DAB8186023550052F036 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C953DABA186023550052F036 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C953DABB186023550052F036 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C953DABE186023550052F036 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		C953DAC1186023550052F036 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C953DA9C186023550052F036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C953DAA3186023550052F036 /* UIKit.framework in Frameworks */,
+				C953DAA5186023550052F036 /* Foundation.framework in Frameworks */,
+				C953DAA7186023550052F036 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C953DA96186023550052F036 = {
+			isa = PBXGroup;
+			children = (
+				C953DAA8186023550052F036 /* DeDrawer */,
+				C953DAA1186023550052F036 /* Frameworks */,
+				C953DAA0186023550052F036 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C953DAA0186023550052F036 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C953DA9F186023550052F036 /* DeDrawer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C953DAA1186023550052F036 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C953DAA2186023550052F036 /* UIKit.framework */,
+				C953DAA4186023550052F036 /* Foundation.framework */,
+				C953DAA6186023550052F036 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C953DAA8186023550052F036 /* DeDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				C953DAB1186023550052F036 /* AppDelegate.h */,
+				C953DAB2186023550052F036 /* AppDelegate.m */,
+				C953DABA186023550052F036 /* ViewController.h */,
+				C953DABB186023550052F036 /* ViewController.m */,
+				C953DABD186023550052F036 /* ViewController_iPhone.xib */,
+				C953DAC0186023550052F036 /* ViewController_iPad.xib */,
+				C953DAA9186023550052F036 /* Supporting Files */,
+			);
+			path = DeDrawer;
+			sourceTree = "<group>";
+		};
+		C953DAA9186023550052F036 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C953DAAA186023550052F036 /* DeDrawer-Info.plist */,
+				C953DAAB186023550052F036 /* InfoPlist.strings */,
+				C953DAAE186023550052F036 /* main.m */,
+				C953DAB0186023550052F036 /* DeDrawer-Prefix.pch */,
+				C953DAB4186023550052F036 /* Default.png */,
+				C953DAB6186023550052F036 /* Default@2x.png */,
+				C953DAB8186023550052F036 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C953DA9E186023550052F036 /* DeDrawer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C953DAC5186023550052F036 /* Build configuration list for PBXNativeTarget "DeDrawer" */;
+			buildPhases = (
+				C953DA9B186023550052F036 /* Sources */,
+				C953DA9C186023550052F036 /* Frameworks */,
+				C953DA9D186023550052F036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeDrawer;
+			productName = DeDrawer;
+			productReference = C953DA9F186023550052F036 /* DeDrawer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C953DA97186023550052F036 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Derek Lix";
+			};
+			buildConfigurationList = C953DA9A186023550052F036 /* Build configuration list for PBXProject "DeDrawer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C953DA96186023550052F036;
+			productRefGroup = C953DAA0186023550052F036 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C953DA9E186023550052F036 /* DeDrawer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C953DA9D186023550052F036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C953DAAD186023550052F036 /* InfoPlist.strings in Resources */,
+				C953DAB5186023550052F036 /* Default.png in Resources */,
+				C953DAB7186023550052F036 /* Default@2x.png in Resources */,
+				C953DAB9186023550052F036 /* Default-568h@2x.png in Resources */,
+				C953DABF186023550052F036 /* ViewController_iPhone.xib in Resources */,
+				C953DAC2186023550052F036 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C953DA9B186023550052F036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C953DAAF186023550052F036 /* main.m in Sources */,
+				C953DAB3186023550052F036 /* AppDelegate.m in Sources */,
+				C953DABC186023550052F036 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C953DAAB186023550052F036 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C953DAAC186023550052F036 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C953DABD186023550052F036 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C953DABE186023550052F036 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		C953DAC0186023550052F036 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C953DAC1186023550052F036 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C953DAC3186023550052F036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C953DAC4186023550052F036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C953DAC6186023550052F036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeDrawer/DeDrawer-Prefix.pch";
+				INFOPLIST_FILE = "DeDrawer/DeDrawer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C953DAC7186023550052F036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeDrawer/DeDrawer-Prefix.pch";
+				INFOPLIST_FILE = "DeDrawer/DeDrawer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C953DA9A186023550052F036 /* Build configuration list for PBXProject "DeDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C953DAC3186023550052F036 /* Debug */,
+				C953DAC4186023550052F036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C953DAC5186023550052F036 /* Build configuration list for PBXNativeTarget "DeDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C953DAC6186023550052F036 /* Debug */,
+				C953DAC7186023550052F036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C953DA97186023550052F036 /* Project object */;
+}
