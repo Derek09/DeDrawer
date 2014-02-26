@@ -19,6 +19,10 @@
 		C953DABC186023550052F036 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C953DABB186023550052F036 /* ViewController.m */; };
 		C953DABF186023550052F036 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C953DABD186023550052F036 /* ViewController_iPhone.xib */; };
 		C953DAC2186023550052F036 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C953DAC0186023550052F036 /* ViewController_iPad.xib */; };
+		C953DACA186023A40052F036 /* DeLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C953DAC9186023A40052F036 /* DeLeftViewController.m */; };
+		C953DACD186023C00052F036 /* DeRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C953DACC186023C00052F036 /* DeRightViewController.m */; };
+		C953DAD0186023DD0052F036 /* DeCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C953DACF186023DD0052F036 /* DeCenterViewController.m */; };
+		C953DAD3186025900052F036 /* DeRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C953DAD2186025900052F036 /* DeRootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,14 @@
 		C953DABB186023550052F036 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C953DABE186023550052F036 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		C953DAC1186023550052F036 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		C953DAC8186023A40052F036 /* DeLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeLeftViewController.h; sourceTree = "<group>"; };
+		C953DAC9186023A40052F036 /* DeLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeLeftViewController.m; sourceTree = "<group>"; };
+		C953DACB186023C00052F036 /* DeRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeRightViewController.h; sourceTree = "<group>"; };
+		C953DACC186023C00052F036 /* DeRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeRightViewController.m; sourceTree = "<group>"; };
+		C953DACE186023DC0052F036 /* DeCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeCenterViewController.h; sourceTree = "<group>"; };
+		C953DACF186023DD0052F036 /* DeCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeCenterViewController.m; sourceTree = "<group>"; };
+		C953DAD1186025900052F036 /* DeRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeRootViewController.h; sourceTree = "<group>"; };
+		C953DAD2186025900052F036 /* DeRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeRootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 		C953DA96186023550052F036 = {
 			isa = PBXGroup;
 			children = (
+				C953DAD1186025900052F036 /* DeRootViewController.h */,
+				C953DAD2186025900052F036 /* DeRootViewController.m */,
+				C953DACE186023DC0052F036 /* DeCenterViewController.h */,
+				C953DACF186023DD0052F036 /* DeCenterViewController.m */,
+				C953DACB186023C00052F036 /* DeRightViewController.h */,
+				C953DACC186023C00052F036 /* DeRightViewController.m */,
+				C953DAC8186023A40052F036 /* DeLeftViewController.h */,
+				C953DAC9186023A40052F036 /* DeLeftViewController.m */,
 				C953DAA8186023550052F036 /* DeDrawer */,
 				C953DAA1186023550052F036 /* Frameworks */,
 				C953DAA0186023550052F036 /* Products */,
@@ -180,6 +200,10 @@
 				C953DAAF186023550052F036 /* main.m in Sources */,
 				C953DAB3186023550052F036 /* AppDelegate.m in Sources */,
 				C953DABC186023550052F036 /* ViewController.m in Sources */,
+				C953DACA186023A40052F036 /* DeLeftViewController.m in Sources */,
+				C953DACD186023C00052F036 /* DeRightViewController.m in Sources */,
+				C953DAD0186023DD0052F036 /* DeCenterViewController.m in Sources */,
+				C953DAD3186025900052F036 /* DeRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +334,7 @@
 				C953DAC7186023550052F036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

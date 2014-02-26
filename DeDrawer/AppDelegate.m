@@ -8,7 +8,11 @@
 
 #import "AppDelegate.h"
 
-#import "ViewController.h"
+#import "DeRootViewController.h"
+#import "DeCenterViewController.h"
+#import "DeRightViewController.h"
+#import "DeLeftViewController.h"
+
 
 @implementation AppDelegate
 
@@ -23,13 +27,21 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController_iPhone" bundle:nil] autorelease];
-    } else {
-        self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController_iPad" bundle:nil] autorelease];
-    }
+    
+    DeCenterViewController* centerController=[[[DeCenterViewController alloc] init] autorelease];
+    centerController.view.frame=[UIScreen mainScreen].bounds;
+    [centerController.view setBackgroundColor:[UIColor whiteColor]];
+    UINavigationController* centerNavController=[[UINavigationController alloc] initWithRootViewController:centerController];
+    DeLeftViewController*   leftController=[[[DeLeftViewController alloc] init] autorelease];
+    DeRightViewController*  rightContrller=[[[DeRightViewController alloc] init] autorelease];
+    
+    self.viewController = [[[DeRootViewController alloc] initWithCenterController:centerNavController leftController:leftController rightController:rightContrller] autorelease];
+    
+    self.viewController.view.frame=[UIScreen  mainScreen].bounds;
+    [self.viewController.view setBackgroundColor:[UIColor blueColor]];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
